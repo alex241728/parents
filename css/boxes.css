@@ -1,0 +1,360 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: 980px;
+    position: absolute;
+    left: 10%;
+    top: 340px;
+}
+
+.box-1 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-1 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-1 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 315px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-1 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-1 .rectangle-3 
+{
+    display: none;
+}
+
+.box-1 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-1 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-1 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-2 .rectangle-1
+{
+    position: absolute;
+    left: 37.66%;
+    top: 0px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-2 .image
+{
+    position: absolute;
+    left: 37.66%;
+    top: 0px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-2 .text
+{
+    position: absolute;
+    left: 37.66%;
+    top: 315px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-2 .rectangle-2
+{
+    position: absolute;
+    left: 37.66%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-2 .rectangle-3 
+{
+    display: none;
+}
+
+.box-2 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-2 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-2 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-3 .rectangle-1
+{
+    position: absolute;
+    left: 75.32%;
+    top: 0px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-3 .image
+{
+    position: absolute;
+    left: 75.32%;
+    top: 0px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-3 .text
+{
+    position: absolute;
+    left: 75.32%;
+    top: 315px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-3 .rectangle-2
+{
+    position: absolute;
+    left: 75.32%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-3 .rectangle-3 
+{
+    display: none;
+}
+
+.box-3 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-3 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-3 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}
+
+.box-4 .rectangle-1
+{
+    position: absolute;
+    left: 0%;
+    top: 580px;
+    background: #F8FEFF;
+    width: 24.66%;
+    height: 400px;
+    box-shadow: 10px 14px 5px 0px rgba(255, 255, 255, 0.20);
+    z-index: 2;
+}
+
+.box-4 .image
+{
+    position: absolute;
+    left: 0%;
+    top: 580px;
+    width: 24.66%;
+    height: 300px;
+    z-index: 3;
+}
+
+.box-4 .text
+{
+    position: absolute;
+    left: 0%;
+    top: 895px;
+    width: 24.66%;
+    height: auto;
+    z-index: 3;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-4 .rectangle-2
+{
+    position: absolute;
+    left: 0%;
+    top: 580px;
+    background: rgba(255, 255, 255, 0);
+    width: 24.66%;
+    height: 300px;
+    z-index: 4;
+}
+
+.box-4 .rectangle-3 
+{
+    display: none;
+}
+
+.box-4 .rectangle-2:hover
+{
+    background: rgba(255, 253, 205, 0.60);
+    z-index: 5;
+    transition: background-color 0.3s ease;
+}
+
+.box-4 .rectangle-2:hover .rectangle-3
+{
+    position: absolute;
+    left: 25%;
+    top: 135px;
+    width: 50%;
+    height: auto;
+    border-radius: 16%;
+    border: 3px solid #B2AF5D;
+    z-index: 5;
+    display: block;
+    cursor: pointer;
+}
+
+.box-4 .rectangle-3 .text-wrapper
+{
+    color: #B2AF5D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 5;
+}

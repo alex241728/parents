@@ -1,0 +1,65 @@
+.stars-1
+{
+    position: absolute;
+    left: 0%;
+    top: 300px;
+    opacity: 0.3;
+    width: 23.09%;
+    height: auto;
+    z-index: 1;
+}
+
+.stars-2
+{
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    opacity: 0.3;
+    width: 23.09%;
+    height: auto;
+    z-index: 1;
+}
+
+.stars-3
+{
+    position: absolute;
+    right: 0%;
+    top: 600px;
+    opacity: 0.3;
+    width: 23.09%;
+    height: auto;
+    z-index: 1;
+}
+
+.stars-4
+{
+    position: absolute;
+    left: 0%;
+    top: 1300px;
+    opacity: 0.3;
+    width: 23.09%;
+    height: auto;
+    z-index: 1;
+}
+
+.stars-5
+{
+    position: absolute;
+    right: 0%;
+    top: 1000px;
+    opacity: 0.3;
+    width: 23.09%;
+    height: auto;
+    z-index: 1;
+}
+
+.stars-6
+{
+    position: absolute;
+    right: 0%;
+    top: 1600px;
+    opacity: 0.3;
+    width: 23.09%;
+    height: auto;
+    z-index: 1;
+}
